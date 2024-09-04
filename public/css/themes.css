@@ -11,9 +11,9 @@ body[theme="midnight"] {
     --accent: #0284d4;
 }
 body[theme="main"] {
-    --text-color: white;
-    --background: #1a2023;
-    --navbar: #0e1213;
+    --text-color: #ebebeb;
+    --background: #000000;
+    --navbar: #0f0f0f;
     --accent: #0284d4;
 }
 body[theme="rainbow"] {
