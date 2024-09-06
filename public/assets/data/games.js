@@ -436,7 +436,7 @@ var games = [
   {
     id: 'roblox',
     title: 'Roblox',
-    url: 'https://now.gg/play/roblox-corporation/5349/roblox',
+    url: 'https://newalgebra.com',
     image: 'https://play-lh.googleusercontent.com/WNWZaxi9RdJKe2GQM3vqXIAkk69mnIl4Cc8EyZcir2SKlVOxeUv9tZGfNTmNaLC717Ht=w240-h480-rw',
     description: 'EXPERIMENTAL: This may or may not work for you. Please don\'t report it if it doesn\'t. If you have bad WiFi, it may load slower than usual.'
   },
