@@ -1,46 +1,86 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <link
       rel="shortcut icon"
       href="./assets/images/icon.png"
       type="image/png"
     />
-    <title>carti is never dropping the album/title>
+    <title>Terms of Use Agreement</title>
     <link rel="stylesheet" href="./css/master.css" />
     <script src="/uv/uv.bundle.js" charset="UTF-8"></script>
     <script src="/uv/uv.config.js"></script>
     <script src="./js/preload.js"></script>
-  </head>
-  <body theme="main">
+    <style>
+        /* Additional inline styles specific to this page */
+        .center-container {
+            text-align: center;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .center-container h1 {
+            margin-bottom: 20px;
+        }
+        .center-container p {
+            margin-bottom: 20px;
+        }
+        .center-container input[type="checkbox"] {
+            margin-right: 10px;
+        }
+        .center-container button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .center-container button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body theme="main">
     <nav>
-      <div class="logo">
-        <img src="./assets/images/icon.png" alt="Logo" draggable="false" />
-        <h1>carti is never dropping the album</h1>
-      </div>
-      <p id="time"></p>
-      <div class="navitems">
-        <div class="navitem"><a href="/">Home</a></div>
-        <div class="navitem"><a href="/gs.html">Games</a></div>
-        <div class="navitem"><a href="/apps.html">Apps</a></div>
-        <div class="navitem"><a href="/emulator.html">Emulator</a></div>
-        <div class="navitem"><a href="/search.html">Search</a></div>
-      </div>
+        <div class="logo">
+            <img src="./assets/images/icon.png" alt="Logo" draggable="false" />
+            <h1>carti is never dropping the album</h1>
+        </div>
+        <p id="time"></p>
+        <div class="navitems">
+            <div class="navitem"><a href="/">Home</a></div>
+            <div class="navitem"><a href="/gs.html">Games</a></div>
+            <div class="navitem"><a href="/apps.html">Apps</a></div>
+            <div class="navitem"><a href="/emulator.html">Emulator</a></div>
+            <div class="navitem"><a href="/search.html">Search</a></div>
+        </div>
     </nav>
     <div class="center-container">
-      <h1>Art Class</h1>
-      <p id="splash">
-        Welcome to carti is never dropping the album, the ultimate unblocked game site! Our site is
-        created by unalog based off of Art Class to bring you the best unblocking
-        experience. Whether you're at school or work, carti is never dropping the album has got you
-        covered. So, sit back, relax, and enjoy our collection of games and
-        apps!
-      </p>
-      <br />
-      <button onclick="window.location.href='/index.html'" class="button play">
-        Done reading?
-      </button>
+        <h1>Terms of Use Agreement</h1>
+        <p>
+            Please read and agree to the terms of use before proceeding. By agreeing, you accept our terms and conditions.
+        </p>
+        <p>
+            <input type="checkbox" id="agreeCheckbox">
+            <label for="agreeCheckbox">I agree to the Terms of Use</label>
+        </p>
+        <button id="agreeButton">Agree</button>
     </div>
+    <script>
+        document.getElementById('agreeButton').addEventListener('click', function() {
+            var checkbox = document.getElementById('agreeCheckbox');
+            if (checkbox.checked) {
+                window.location.href = '/index.html';
+            } else {
+                alert('You must agree to the Terms of Use before proceeding.');
+            }
+        });
+    </script>
     <script src="./js/index.js"></script>
-  </body>
+</body>
 </html>
