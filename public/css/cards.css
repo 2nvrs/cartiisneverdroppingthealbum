@@ -5,50 +5,36 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px; /* Improved spacing between cards */
 }
 
 .card i {
-    font-size: 80px; /* Slightly smaller for a balanced layout */
-    margin-top: 10px;
-    color: var(--accent); /* Unified with the theme accent color */
-    transition: color 0.3s;
+    font-size: 100px;
+    margin-top: 5px;
 }
 
 .card img {
     aspect-ratio: 1 / 1;
-    height: 80px;
-    margin-top: 10px;
-    border-radius: 10px;
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Added subtle shadow for images */
-    transition: transform 0.3s;
+    height: 100px;
+    margin-top: 5px;
+    border-radius: 5px;
 }
 
 .card {
-    border-radius: 15px; /* Smoother corners */
-    font-family: "DM Sans", sans-serif;
+    border-radius: 3vh;
+    font-family: "DM Sans";
     cursor: pointer;
-    transition: all 0.4s;
-    padding: 1.5rem; /* Increased padding for a more spacious look */
-    margin: 5px;
+    transition: all 0.3s;
+    padding: 1rem;
+    margin: 3px;
     text-align: center;
-    width: 12%; /* Adjusted width for better responsiveness */
-    background-color: var(--navbar); /* Matches the theme navbar color */
-    color: var(--text-color);
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Added light shadow for depth */
+    width: 10%;
 }
 
 .card:hover {
-    box-shadow: 0px 6px 25px rgba(0, 0, 0, 0.2), 0px 0px 15px var(--accent); /* Enhanced hover effect */
-    transform: scale(1.05); /* Smooth scale on hover */
-}
-
-.card:hover i {
-    color: var(--text-color); /* Reverse icon color for contrast */
-}
-
-.card:hover img {
-    transform: scale(1.1); /* Zoom effect on image */
+    -webkit-box-shadow: 0px 2px 23px 5px var(--accent);;
+    -moz-box-shadow: 0px 2px 23px 5px var(--accent);
+    box-shadow: 0px 2px 23px 5px var(--accent);
+    /*transform: scale(1.05);*/
 }
 
 .card>* {
@@ -56,14 +42,5 @@
 }
 
 .description {
-    font-size: 12px; /* Slightly larger for readability */
-    color: var(--text-color);
-    margin-top: 10px;
-    line-height: 1.5;
-    opacity: 0.8; /* Reduced opacity for a subtle look */
-    transition: opacity 0.3s;
-}
-
-.card:hover .description {
-    opacity: 1; /* Full opacity on hover for emphasis */
+    font-size: 10px;
 }
