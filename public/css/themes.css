@@ -1,115 +1,87 @@
-/* Rose Gold Theme */
 body[theme="rose_gold"] {
     --text-color: #ffffff;
-    --background: linear-gradient(135deg, #f3a683, #e79a58);
-    --navbar: #d98c4c;
+    --background: #f3a683;
+    --navbar: #e79a58;
     --accent: #ff9a8b;
 }
-
-/* Midnight Theme */
 body[theme="midnight"] {
-    --text-color: #ffffff;
-    --background: linear-gradient(135deg, #1a2023, #12181a);
+    --text-color: white;
+    --background: #1a2023;
     --navbar: #0e1213;
     --accent: #0284d4;
 }
-
-/* Main Theme */
 body[theme="main"] {
     --text-color: #ebebeb;
-    --background: linear-gradient(135deg, #000000, #0f0f0f);
-    --navbar: #1a1a1a;
+    --background: #000000;
+    --navbar: #0f0f0f;
     --accent: #0284d4;
 }
-
-/* Rainbow Theme */
 body[theme="rainbow"] {
-    --text-color: #000000;
-    --background: url("https://www.rd.com/wp-content/uploads/2021/05/traditional-gay-pride-flag.jpg?resize=2048"), linear-gradient(to right, #ff0000, #ff9900, #ffff00, #00ff00, #0000ff, #9900ff);
+    --text-color: black;
+    --background: url("https://www.rd.com/wp-content/uploads/2021/05/traditional-gay-pride-flag.jpg?resize=2048");
     --navbar: #bcf3f6;
-    --accent: #ddf9fa;
-    background-size: cover;
-    background-position: center;
+    --accent: #DDF9FA;
 }
 
-/* Forest Theme */
+
 body[theme="forest"] {
-    --text-color: #ffffff;
-    --background: linear-gradient(135deg, #2c3e50, #1e2a33);
+    --text-color: white;
+    --background: #2c3e50;
     --navbar: #1c221d;
     --accent: #27ae60;
 }
 
-/* Ocean Theme */
 body[theme="ocean"] {
-    --text-color: #ffffff;
-    --background: linear-gradient(135deg, #34495e, #223445);
+    --text-color: white;
+    --background: #34495e;
     --navbar: #2d1a79;
     --accent: #2980b9;
 }
-
-/* AMOLED Theme */
 body[theme="amoled"] {
     --text-color: #ebebeb;
     --background: #000000;
     --navbar: #0f0f0f;
     --accent: #0284d4;
 }
-
-/* White Theme */
 body[theme="white"] {
     --text-color: #000000;
     --background: #ffffff;
-    --navbar: #e0e0e0;
+    --navbar: #dbdbdb;
     --accent: #0284d4;
 }
-
-/* Sunset Theme */
 body[theme="sunset"] {
     --text-color: #ffffff;
-    --background: linear-gradient(135deg, #f08b08, #f15e08);
+    --background: linear-gradient(#f08b08, #f15e08);
     --navbar: #f09f08;
-    --accent: #ffcc33;
+    --accent: #0284d4;
 }
-
-/* Flash Theme */
 body[theme="flash"] {
-    --text-color: #000000;
-    --background: linear-gradient(135deg, #ffffff, #f5f5f5);
-    --navbar: #eaeaea;
-    --accent: #cccccc;
-}
-
-/* Matrix Theme */
-body[theme="matrix"] {
-    --text-color: #e0e0e0;
-    --background: linear-gradient(135deg, #000000, #006b09);
-    --navbar: #0c0c0c;
-    --accent: #00ff00;
-}
-
-/* Beach Theme */
-body[theme="beach"] {
-    --text-color: #000000;
-    --background: linear-gradient(135deg, #f6d7b0, #ffc680);
-    --navbar: #87ceeb;
-    --accent: #ff7f50;
-}
-
-/* Murica Theme */
-body[theme="murica"] {
     --text-color: #ffffff;
-    --background: linear-gradient(135deg, #e21f1f, #2233cf);
-    --navbar: #e22e2e;
+    --background: #ffffff;
+    --navbar: #ffffff;
     --accent: #ffffff;
 }
-
-/* Modern Theme */
+body[theme="matrix"] {
+    --text-color: #e0e0e0;
+    --background: linear-gradient(#000000, #006b09);
+    --navbar: #080808;
+    --accent: #0284d4;
+}
+body[theme="beach"] {
+    --text-color: #000000;
+    --background: #f6d7b0;
+    --navbar: #87CEEB;
+    --accent: #0284d4;
+}
+body[theme="murica"] {
+    --text-color: #000000;
+    --background: linear-gradient(#e21f1f, #2233cf);
+    --navbar: #e22e2e;
+    --accent: #0284d4;
+}
 body[theme="modern"] {
-    --text-color: #ffffff;
-    --background: url("https://yourcatholicfoundation.org.au/wp-content/uploads/2019/09/Main-Image-bg.jpg"), linear-gradient(135deg, #2d2d2d, #1c1c1c);
+    --text-color: #000000;
+    --background: url("https://yourcatholicfoundation.org.au/wp-content/uploads/2019/09/Main-Image-bg.jpg");
     --navbar: #313131;
-    --accent: #61dafb;
-    background-size: cover;
-    background-position: center;
+    --accent: #0284d4;
 }
