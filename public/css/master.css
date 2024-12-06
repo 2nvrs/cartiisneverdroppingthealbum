@@ -7,12 +7,12 @@
     font-family: gg sans;
     font-style: normal;
     font-weight: 400;
-    src: url(/assets/fonts/ggsans.woff2) format("woff2")
+    src: url(/assets/fonts/helvetica-now-bold.woff2) format("woff2");
 }
 
 * {
     margin: 0;
     padding: 0;
-    font-family: "JetBrains Mono", monospace;
+    font-family: "gg sans", sans-serif; /* Use Helvetica Now Bold as the default font */
     font-weight: 400;
 }
