@@ -11,12 +11,12 @@ body[theme="midnight"] {
     --accent: #0284d4;
 }
 body[theme="main"] {
-    --text-color: #ebebeb;
-    --background: #000000;
-    --navbar: #0f0f0f;
+    --text-color: white;
+    --background: #1a2023;
+    --navbar: #0e1213;
     --accent: #0284d4;
 }
-body[theme="rainbow"] {
+body[theme="lgbtq"] {
     --text-color: black;
     --background: url("https://www.rd.com/wp-content/uploads/2021/05/traditional-gay-pride-flag.jpg?resize=2048");
     --navbar: #bcf3f6;
